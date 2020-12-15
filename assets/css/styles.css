@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #CDB4DB;
+  font-family: arial, sans-serif;
+  color: #463f3a;
+}
+
+.wrapper {
+  background: #f8f9fa;
+  width: 98%;
+  max-width: 800px;
+  margin:0 auto;
+  padding: 12px 20px
+}
+
+h1 {
+  font-family: arial ,sans-serif;
+  color: #cdb4dbff;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  text-shadow: 3px 3px 3px #F8F8FF;
+  line-height: 100%;
+  padding-top: 50px;
+
+}
+
+h2 {
+  font-family: arial ,sans-serif;
+  color: #FFFFFF;
+  text-shadow: 3px 3px 3px #462301;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  line-height: 0em;
+  padding-bottom: 0px;
+}
+
+h3 {
+  font-family: impact,sans-serif;
+  color: #D61CBA;
+  text-shadow: 3px 3px 3px #462301;
+  font-size: 80px;
+  margin-top: .5em;
+  margin-bottom: 0;
+  text-align:center;
+}
+
+h4 {
+  font-family: arial,sans-serif;
+  color: #0F90B7;
+  font-size: 27px;
+  text-shadow: 1px 1px 1px #462301;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 20px;
+}
+
+
+h5 {
+  font-family: arial,sans-serif;
+  color: #0F90B7;
+  text-shadow: 1px 1px 1px #462301;
+  font-size: 25px;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+
+blockquote {
+  border-left: 2px solid #7b2cbf;
+  border-right: 2px solid #7b2cbf;
+  border-top: 2px solid #7b2cbf;
+  border-bottom: 2px solid #7b2cbf;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #FEE4F0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.image {
+  margin: 2em 0;
+}
+
+p.caption {
+  font-style: italic;
+  margin-top: .25;
+}
+
+a {
+  color:#D61CBA;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+  color: #463f3a;
+  border-radius: 1em>
+}
+
+li {
+  text-align: left;
+}
+
+p {
+  text-align: center;
+  line-height: 1.4em;
+}
+
+header {
+  background-image: url(../images/RollYarn_a.png);
+  border-bottom: 4px solid #f8f9fa;
+  text-align:center;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 2px solid #d2d2d2d2;
+}
+
+@media all and (min-width: 920px) {
+ article, aside {
+  float: left;
+}
+article {
+  width: 50%;
+  padding-right: 20px
+}
+
+aside {
+  width: 50%;
+}
+aside h2:first-child {
+  margin-top: 14px;
+}assets
